@@ -22,6 +22,8 @@ function chooseEmployee() {
         console.log(answers)
         if(answers.name === "Intern"){
             addIntern()
+        } if(answers.name === "Engineer"){
+            addEngineer()
         }
     }) 
 }
@@ -47,3 +49,4 @@ function addEngineer(){
         chooseEmployee()
     })  
 }
+
